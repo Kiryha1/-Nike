@@ -44,77 +44,93 @@
             </li>
           </ul>
         </nav>
-        <p class="ua">Ua</p>
-        <p class="eng">Eng</p>
+        <div class="lang">
+          <a href="#" class="ua">Ua</a>
+          <a href="" class="eng">Eng</a>
+        </div>
       </div>
     </header>
     <main class="main">
       <section class="hero">
-        <img src="./img/Nike.png" alt="Nike" />
-        <p class="hero-text">С&R</p>
-        <h1 class="hero-title">ColoRawe</h1>
-        <h2 class="hero-subtitle">Your dream Nike</h2>
-        <p class="desc">
-          On this site you can find custom Nike sneakers of your dreams. The
-          original company caт`t create such beautiful sneakers as we do. Good
-          luck finding your way in the world of custom sneakers.
-        </p>
-        <button class="hero-btn" type="button">Buy my Nike</button>
+        <div class="container">
+          <img src="./img/Nike2.png" alt="Nike" />
+          <p class="hero-text">С&R</p>
+          <h1 class="hero-title">ColoRawe</h1>
+          <h2 class="hero-subtitle">Your dream Nike</h2>
+          <p class="hero-desc">
+            On this site you can find custom Nike sneakers of your dreams. The
+            original company caт`t create such beautiful sneakers as we do. Good
+            luck finding your way in the world of custom sneakers.
+          </p>
+          <button class="hero-btn" type="button">Buy my Nike</button>
+        </div>
       </section>
-      <div class="container">
-        <section class="advant">
+      <section class="advant">
+        <div class="container">
           <ul class="advant-list">
-            <li class="advant-list__item">Premium Quality</li>
-            <li class="advant-list__item">Indelible paint</li>
-            <li class="advant-list__item">Fast shipping</li>
+            <li class="advant-list__item">
+              <h2 class="advant-title">Premium Quality</h2>
+            </li>
+            <li class="advant-list__item">
+              <h2 class="advant-title">Indelible paint</h2>
+            </li>
+            <li class="advant-list__item">
+              <h2 class="advant-title">Fast shipping</h2>
+            </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section class="reviews">
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
             <li class="reviews-list__item">
               <article class="people-reviews">
-                <p class="desc">
+                <p class="reviews-desc">
                   Sneakers are very comfortable and well painted, nothing has
                   worn off in a year.
                 </p>
                 <p class="date">25.11</p>
-                <img src="" alt="John" class="people" />
-                <p class="name">John Teylor</p>
-                <p class="with-us">With us from 2018</p>
+                <div class="users-box">
+                  <img src="" alt="John" class="users-box__people" />
+                  <p class="users-box__name">John Teylor</p>
+                  <p class="users-box__with-us">With us from 2018</p>
+                </div>
               </article>
             </li>
             <li class="reviews-list__item">
               <article class="people-reviews">
-                <p class="desc">
+                <p class="reviews-desc">
                   I'm very happy with this color scheme. They match all my
                   clothes.
                 </p>
                 <p class="date">05.01</p>
-                <img src="" alt="Elizabeth" class="people" />
-                <p class="name">Elizabeth Garsia</p>
-                <p class="with-us">With us from 2020</p>
+                <div class="users-box">
+                  <img src="" alt="Elizabeth" class="users-box__people" />
+                  <p class="users-box__name">Elizabeth Garsia</p>
+                  <p class="users-box__with-us">With us from 2020</p>
+                </div>
               </article>
             </li>
             <li class="reviews-list__item">
               <article class="people-reviews">
-                <p class="desc">
+                <p class="reviews-desc">
                   Just right if you need to go to a party. I use them actively,
                   the paint is super.
                 </p>
                 <p class="date">18.06</p>
-                <img src="" alt="Tom" class="people" />
-                <p class="name">Tom Maquare</p>
-                <p class="with-us">With us from 2019</p>
+                <div class="users-box">
+                  <img src="" alt="Tom" class="users-box__people" />
+                  <p class="users-box__name">Tom Maquare</p>
+                  <p class="users-box__with-us">With us from 2019</p>
+                </div>
               </article>
             </li>
           </ul>
-        </section>
-      </div>
-      <div class="container">
-        <section class="order">
+        </div>
+      </section>
+      <section class="order">
+        <div class="container">
           <h2 class="order-title">Order</h2>
           <form class="order-form">
             <input
@@ -152,25 +168,35 @@
               placeholder="Your Adress"
               required
             />
-            <button type="submit">Order my Nike</button>
+            <button class="order-btn" type="submit">Order my Nike</button>
           </form>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <p class="footer-text">Have a question</p>
-        <p class="footer-text">Have a proposal for cooperation</p>
-        <p class="footer-text">Advertising questions</p>
-        <a href="#" class="footer-link">ColoRawe_support@gmail.com</a>
-        <a href="#" class="footer-link">ColoRawe_Co0peration@gmail.com</a>
-        <a href="#" class="footer-link">ColoRawe_Advertising@gmail.com</a>
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <p class="footer-list__text">Have a question</p>
+            <a href="" class="footer-list__link">ColoRawe_support@gmail.com</a>
+            <p class="footer-list__text">Have a proposal for cooperation</p>
+            <a href="" class="footer-list__link"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+            <p class="footer-list__text">Advertising questions</p>
+            <a href="" class="footer-list__link"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+          </li>
+        </ul>
         <section class="footer-info">
-          <p class="footer-info__text">2022 ColoRawe @All rights reserved</p>
-          <p class="footer-info__text">United STates</p>
+          <div class="info-box">
+            <p class="info-box__text">2022 ColoRawe @All rights reserved</p>
+            <p class="info-box__text">United STates</p>
+          </div>
+          <img class="footer-img" src="./img/Nike.png" alt="Nike" />
+          <p class="footer-text">С&R</p>
         </section>
-        <img src="./img/Nike.png" alt="Nike" />
-        <p class="text">С&R</p>
       </div>
     </footer>
   </body>
