@@ -1,5 +1,21 @@
+:root {
+  --white: #fff;
+  --grey: #959595;
+  --purple: #8e32c6;
+  --black-blue: #012d63;
+  --gray: #c7c7c7;
+}
+
+body {
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
@@ -13,4 +29,307 @@ h2,
 button {
   padding: 0;
   margin: 0;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 17px;
+}
+
+.header {
+  background-color: var(--black-blue);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.nav-list__link {
+  color: var(--grey);
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.nav-list__link:hover {
+  color: var(--white);
+}
+
+.lang .ua,
+.eng {
+  color: #dcdcdc;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.lang .ua:hover,
+.eng:hover {
+  color: var(--white);
+}
+
+.hero {
+  background-color: var(--black-blue);
+  background-image: url("../img/Fon1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 183px;
+}
+
+.hero-img {
+  padding-top: 94px;
+}
+
+.hero-text {
+  color: var(--white);
+  font-family: "PT Serif", sans-serif;
+  font-size: 48px;
+}
+
+.hero-title {
+  color: var(--white);
+  font-family: "Playfair Display", sans-serif;
+  font-size: 144px;
+}
+
+.hero-subtitle {
+  color: var(--white);
+  font-family: "Playfair Display", sans-serif;
+  font-size: 72px;
+}
+
+.hero-desc {
+  color: var(--white);
+  font-size: 18px;
+  width: 508px;
+  padding: 12px 0 41px;
+}
+
+.hero-btn {
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+
+  background-color: var(--purple);
+  padding: 20px 61px;
+  border: none;
+  border-radius: 10px;
+}
+
+.advant {
+  background-color: var(--black-blue);
+  background-image: url("../img/Fon2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 105px 0;
+}
+
+.advant-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 5px solid var(--purple);
+  padding: 25px 50px;
+}
+
+.advant-list__item:first-child::after {
+  background-image: url("../img/Stars.svg");
+  content: "";
+  display: block;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advant-list__item:nth-child(2) {
+  border-left: 1px solid var(--white);
+  border-right: 1px solid var(--white);
+  padding: 0 95px;
+  align-self: flex-start;
+}
+
+.advant-list__item:nth-child(2)::before {
+  background-image: url("../img/Colors.svg");
+  content: "";
+  display: block;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advant-list__item:last-child::after {
+  background-image: url("../img/Trucks.svg");
+  content: "";
+  display: block;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advant-title {
+  color: var(--white);
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.reviews {
+  padding: 114px 0;
+  background-color: var(--black-blue);
+  background-image: url("../img/Flowers.svg"), url("../img/Fon3.jpg");
+  background-size: auto, cover;
+  background-position: left bottom, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.reviews-title {
+  color: var(--white);
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 48px;
+  padding-top: 25px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 93px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-list__item {
+  width: 255px;
+  height: 292px;
+  padding: 49px 18px 29px;
+}
+
+.reviews-list__item:first-child {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+
+  box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7b54b2;
+}
+
+.reviews-list__item:nth-child(2) {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+
+  box-shadow: 0px 30px 0px -13px #61337c, 0px 14px 0px -5px #9159b1;
+}
+
+.reviews-list__item:last-child {
+  border-radius: 15px;
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+
+  box-shadow: 0px 30px 0px -13px #732f26, 0px 14px 0px -5px #b95a4c;
+}
+
+.reviews-desc {
+  color: var(--white);
+  font-size: 24px;
+  width: 228px;
+  margin-bottom: 8px;
+}
+
+.reviews-date {
+  color: #d8d8d8;
+  font-size: 14px;
+}
+
+.users-box__people {
+  border-radius: 100%;
+}
+
+.users-box {
+  display: flex;
+  margin-top: 47px;
+}
+
+.users-info {
+  margin-left: 5px;
+}
+
+.users-info__name {
+  color: var(--white);
+  font-size: 14px;
+}
+
+.order {
+  background-color: var(--black-blue);
+  background-image: url("../img/Fon4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 37px;
+}
+
+.order-title {
+  color: var(--white);
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  padding-top: 21px;
+  margin-bottom: 33px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-input:first-child {
+  width: 690px;
+  height: 60px;
+  color: var(--grey);
+  font-size: 28px;
+  border-radius: 50px;
+  padding: 12px 0 12px 25px;
+}
+
+.order-input {
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  color: var(--grey);
+  font-size: 24px;
+  padding: 11px 0 11px 24px;
+  margin-bottom: 19px;
+}
+
+.order-btn {
+  display: block;
+  border-radius: 16px;
+  background-color: #8e32c6;
+  color: var(--white);
+  font-size: 24px;
+  padding: 20px 48px;
 }
