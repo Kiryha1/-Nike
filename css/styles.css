@@ -71,6 +71,10 @@ button {
   font-weight: 300;
 }
 
+.span-ua {
+  padding-right: 15px;
+}
+
 .lang .ua:hover,
 .eng:hover {
   color: var(--white);
@@ -91,8 +95,10 @@ button {
 
 .hero-text {
   color: var(--white);
+  display: block;
   font-family: "PT Serif", sans-serif;
   font-size: 48px;
+  padding-left: 31px;
 }
 
 .hero-title {
@@ -192,6 +198,7 @@ button {
   background-size: auto, cover;
   background-position: left bottom, center;
   background-repeat: no-repeat, no-repeat;
+  border: 2px solid var(--white);
 }
 
 .reviews-title {
@@ -261,13 +268,15 @@ button {
   margin-bottom: 8px;
 }
 
-.reviews-date {
+.date {
   color: #d8d8d8;
   font-size: 14px;
 }
 
 .users-box__people {
   border-radius: 100%;
+  width: 31px;
+  height: 31px;
 }
 
 .users-box {
@@ -284,12 +293,17 @@ button {
   font-size: 14px;
 }
 
+.users-info__with-us {
+  color: #d8d8d8;
+  font-size: 12px;
+}
+
 .order {
   background-color: var(--black-blue);
   background-image: url("../img/Fon4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 37px;
+  padding: 21px 0 37px;
 }
 
 .order-title {
@@ -298,7 +312,6 @@ button {
   text-align: center;
   font-size: 48px;
   font-weight: 400;
-  padding-top: 21px;
   margin-bottom: 33px;
 }
 
@@ -306,6 +319,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 19px;
 }
 
 .order-input:first-child {
@@ -324,7 +338,7 @@ button {
   color: var(--grey);
   font-size: 24px;
   padding: 11px 0 11px 24px;
-  margin-bottom: 19px;
+  border: none;
 }
 
 .order-btn {
