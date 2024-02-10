@@ -198,7 +198,8 @@ button {
   background-size: auto, cover;
   background-position: left bottom, center;
   background-repeat: no-repeat, no-repeat;
-  border: 2px solid var(--white);
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
 }
 
 .reviews-title {
