@@ -1,235 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Nike</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-		/>
-		<link rel="stylesheet" href="./css/styles.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:ital@0;1&family=Roboto:wght@300;400&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<header class="header">
-			<div class="container">
-				<a href="./index.html" class="header-logo"
-					><img src="./img/Nike2.png" alt="Nike"
-				/></a>
-				<nav class="navigator">
-					<ul class="nav-list">
-						<li class="nav-list__item">
-							<a href="#" class="nav-list__link">Main page</a>
-						</li>
-						<li class="nav-list__item">
-							<a href="#" class="nav-list__link">Benefits</a>
-						</li>
-						<li class="nav-list__item">
-							<a href="#advant" class="nav-list__link">Advantages</a>
-						</li>
-						<li class="nav-list__item">
-							<a href="#reviews" class="nav-list__link">Reviews</a>
-						</li>
-						<li class="nav-list__item">
-							<a href="#contacts" class="nav-list__link">Contacts</a>
-						</li>
-						<li class="nav-list__item">
-							<a href="#order" class="nav-list__link">Order</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="lang">
-					<span class="span-ua"><a href="#" class="ua">Ua</a></span>
-					<a href="" class="eng">Eng</a>
-				</div>
-			</div>
-		</header>
-		<main class="main">
-			<section class="hero">
-				<div class="container">
-					<img src="./img/Nike.png" alt="Nike" class="hero-img" />
-					<span class="hero-text">С&R</span>
-					<h1 class="hero-title">ColoRawe</h1>
-					<h2 class="hero-subtitle">Your dream Nike</h2>
-					<p class="hero-desc">
-						On this site you can find custom Nike sneakers of your dreams. The
-						original company caт`t create such beautiful sneakers as we do. Good
-						luck finding your way in the world of custom sneakers.
-					</p>
-					<button class="hero-btn" type="button">Buy my Nike</button>
-				</div>
-			</section>
-			<section class="advant" id="advant">
-				<div class="container">
-					<ul class="advant-list">
-						<li class="advant-list__item">
-							<h2 class="advant-title">Premium Quality</h2>
-						</li>
-						<li class="advant-list__item">
-							<h2 class="advant-title">Indelible paint</h2>
-						</li>
-						<li class="advant-list__item">
-							<h2 class="advant-title">Fast shipping</h2>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="reviews" id="reviews">
-				<div class="container">
-					<h2 class="reviews-title">Reviews</h2>
-					<ul class="reviews-list">
-						<li class="reviews-list__item">
-							<article class="people-reviews">
-								<p class="reviews-desc">
-									Sneakers are very comfortable and well painted, nothing has
-									worn off in a year.
-								</p>
-								<p class="date">25.11</p>
-								<div class="users-box">
-									<img
-										src="./img/Jonh.jpg"
-										alt="John"
-										class="users-box__people"
-									/>
-									<div class="users-info">
-										<p class="users-info__name">John Teylor</p>
-										<p class="users-info__with-us">With us from 2018</p>
-									</div>
-								</div>
-							</article>
-						</li>
-						<li class="reviews-list__item">
-							<article class="people-reviews">
-								<p class="reviews-desc">
-									I'm very happy with this color scheme. They match all my
-									clothes.
-								</p>
-								<p class="date">05.01</p>
-								<div class="users-box">
-									<img
-										src="./img/Elizabeth.jpg"
-										alt="Elizabeth"
-										class="users-box__people"
-									/>
-									<div class="users-info">
-										<p class="users-box__name">Elizabeth Garsia</p>
-										<p class="users-box__with-us">With us from 2020</p>
-									</div>
-								</div>
-							</article>
-						</li>
-						<li class="reviews-list__item">
-							<article class="people-reviews">
-								<p class="reviews-desc">
-									Just right if you need to go to a party. I use them actively,
-									the paint is super.
-								</p>
-								<p class="date">18.06</p>
-								<div class="users-box">
-									<img
-										src="./img/Tom.jpg"
-										alt="Tom"
-										class="users-box__people"
-									/>
-									<div class="users-info">
-										<p class="users-box__name">Tom Maquare</p>
-										<p class="users-box__with-us">With us from 2019</p>
-									</div>
-								</div>
-							</article>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="order" id="order">
-				<div class="container">
-					<h2 class="order-title">Order</h2>
-					<form class="order-form">
-						<input
-							class="order-input"
-							type="email"
-							id="email"
-							name="email"
-							placeholder="Write your email"
-							required
-						/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:ital@0;1&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="./index.html" class="header-logo"
+          ><img src="./img/Nike2.png" alt="Nike"
+        /></a>
+        <nav class="navigator">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Main page</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav-list__link">Benefits</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#advant" class="nav-list__link">Advantages</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#reviews" class="nav-list__link">Reviews</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#contacts" class="nav-list__link">Contacts</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#order" class="nav-list__link">Order</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="lang">
+          <span class="span-ua"><a href="#" class="ua">Ua</a></span>
+          <a href="" class="eng">Eng</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <img src="./img/Nike.png" alt="Nike" class="hero-img" />
+          <span class="hero-text">С&R</span>
+          <h1 class="hero-title">ColoRawe</h1>
+          <h2 class="hero-subtitle">Your dream Nike</h2>
+          <p class="hero-desc">
+            On this site you can find custom Nike sneakers of your dreams. The
+            original company caт`t create such beautiful sneakers as we do. Good
+            luck finding your way in the world of custom sneakers.
+          </p>
+          <button class="hero-btn" type="button" data-open-form-modal>
+            Buy my Nike
+          </button>
+        </div>
+      </section>
+      <section class="advant" id="advant">
+        <div class="container">
+          <ul class="advant-list">
+            <li class="advant-list__item">
+              <h2 class="advant-title">Premium Quality</h2>
+            </li>
+            <li class="advant-list__item">
+              <h2 class="advant-title">Indelible paint</h2>
+            </li>
+            <li class="advant-list__item">
+              <h2 class="advant-title">Fast shipping</h2>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h2 class="reviews-title">Reviews</h2>
+          <ul class="reviews-list">
+            <li class="reviews-list__item">
+              <article class="people-reviews">
+                <p class="reviews-desc">
+                  Sneakers are very comfortable and well painted, nothing has
+                  worn off in a year.
+                </p>
+                <p class="date">25.11</p>
+                <div class="users-box">
+                  <img
+                    src="./img/Jonh.jpg"
+                    alt="John"
+                    class="users-box__people"
+                  />
+                  <div class="users-info">
+                    <p class="users-info__name">John Teylor</p>
+                    <p class="users-info__with-us">With us from 2018</p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="reviews-list__item">
+              <article class="people-reviews">
+                <p class="reviews-desc">
+                  I'm very happy with this color scheme. They match all my
+                  clothes.
+                </p>
+                <p class="date">05.01</p>
+                <div class="users-box">
+                  <img
+                    src="./img/Elizabeth.jpg"
+                    alt="Elizabeth"
+                    class="users-box__people"
+                  />
+                  <div class="users-info">
+                    <p class="users-box__name">Elizabeth Garsia</p>
+                    <p class="users-box__with-us">With us from 2020</p>
+                  </div>
+                </div>
+              </article>
+            </li>
+            <li class="reviews-list__item">
+              <article class="people-reviews">
+                <p class="reviews-desc">
+                  Just right if you need to go to a party. I use them actively,
+                  the paint is super.
+                </p>
+                <p class="date">18.06</p>
+                <div class="users-box">
+                  <img
+                    src="./img/Tom.jpg"
+                    alt="Tom"
+                    class="users-box__people"
+                  />
+                  <div class="users-info">
+                    <p class="users-box__name">Tom Maquare</p>
+                    <p class="users-box__with-us">With us from 2019</p>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="order" id="order">
+        <div class="container">
+          <h2 class="order-title">Order</h2>
+          <form class="order-form">
+            <input
+              class="order-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Write your email"
+              required
+            />
 
-						<input
-							class="order-input"
-							type="text"
-							id="country"
-							name="country"
-							placeholder="Your Country"
-							required
-						/>
+            <input
+              class="order-input"
+              type="text"
+              id="country"
+              name="country"
+              placeholder="Your Country"
+              required
+            />
 
-						<input
-							class="order-input"
-							type="text"
-							id="city"
-							name="city"
-							placeholder="Your City"
-							required
-						/>
+            <input
+              class="order-input"
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Your City"
+              required
+            />
 
-						<input
-							class="order-input"
-							type="text"
-							id="adress"
-							name="adress"
-							placeholder="Your Adress"
-							required
-						/>
-						<button class="order-btn" type="submit">Order my Nike</button>
-					</form>
-				</div>
-			</section>
-		</main>
-		<footer class="footer" id="contacts">
-			<div class="container">
-				<ul class="footer-list">
-					<li class="footer-list__item">
-						<p class="footer-list__text">Have a question</p>
-						<a
-							href="mailto:ColoRawe_support@gmail.com"
-							class="footer-list__link"
-							>ColoRawe_support@gmail.com</a
-						>
-					</li>
-					<li class="footer-list__item">
-						<p class="footer-list__text">Have a proposal for cooperation</p>
-						<a
-							href="mailto:ColoRawe_Cooperation@gmail.com"
-							class="footer-list__link"
-							>ColoRawe_Cooperation@gmail.com</a
-						>
-					</li>
-					<li class="footer-list__item">
-						<p class="footer-list__text">Advertising questions</p>
-						<a
-							href="mailto:ColoRawe_Advertising@gmail.com"
-							class="footer-list__link"
-							>ColoRawe_Advertising@gmail.com</a
-						>
-					</li>
-				</ul>
-				<section class="footer-info">
-					<div class="info-box">
-						<p class="info-box__text">2022 ColoRawe @All rights reserved</p>
-						<p class="info-box__US">United States</p>
-					</div>
-					<div class="footer-logo">
-						<img class="footer-img" src="./img/Nike.png" alt="Nike" />
-						<span class="footer-text">С&R</span>
-					</div>
-				</section>
-			</div>
-		</footer>
-	</body>
+            <input
+              class="order-input"
+              type="text"
+              id="adress"
+              name="adress"
+              placeholder="Your Adress"
+              required
+            />
+            <button class="order-btn" type="submit">Order my Nike</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <p class="footer-list__text">Have a question</p>
+            <a
+              href="mailto:ColoRawe_support@gmail.com"
+              class="footer-list__link"
+              >ColoRawe_support@gmail.com</a
+            >
+          </li>
+          <li class="footer-list__item">
+            <p class="footer-list__text">Have a proposal for cooperation</p>
+            <a
+              href="mailto:ColoRawe_Cooperation@gmail.com"
+              class="footer-list__link"
+              >ColoRawe_Cooperation@gmail.com</a
+            >
+          </li>
+          <li class="footer-list__item">
+            <p class="footer-list__text">Advertising questions</p>
+            <a
+              href="mailto:ColoRawe_Advertising@gmail.com"
+              class="footer-list__link"
+              >ColoRawe_Advertising@gmail.com</a
+            >
+          </li>
+        </ul>
+        <section class="footer-info">
+          <div class="info-box">
+            <p class="info-box__text">2022 ColoRawe @All rights reserved</p>
+            <p class="info-box__US">United States</p>
+          </div>
+          <div class="footer-logo">
+            <img class="footer-img" src="./img/Nike.png" alt="Nike" />
+            <span class="footer-text">С&R</span>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <div class="modal__logo">
+          <img class="hero-img" src="img/Nike.png" alt="Image" />
+          <span class="hero-text">C&R</span>
+        </div>
+        <form class="modal__form-pay form-pay">
+          <h3 class="form-pay__title">Payment Card</h3>
+          <div class="form-pay__pages">
+            <div class="form-pay__left">
+              <label for="card_number" class="form-pay__label">
+                Card Number
+              </label>
+              <input
+                type="text"
+                class="form-pay__input"
+                id="card_number"
+                required
+                minlength="16"
+                maxlength="16"
+                placeholder="1111 1111 1111 1111"
+              />
+              <label for="Data_ending" class="form-pay__label">
+                Date of ending
+              </label>
+              <input
+                type="text"
+                class="form-pay__input"
+                id="Data_ending"
+                required
+                placeholder="01/01"
+              />
+              <label for="code" class="form-pay__label"> Secret code </label>
+              <input
+                type="text"
+                class="form-pay__input"
+                id="code"
+                required
+                minlength="3"
+                placeholder="001"
+              />
+            </div>
+            <div class="form-pay__right">
+              <div class="form-pay__card"></div>
+              <div class="form-pay__card"></div>
+              <input
+                type="checkbox"
+                class="form-pay__check"
+                id="form-pay__check"
+              />
+              <label for="form-pay__check" class="form-pay__check">
+                Remember data
+              </label>
+            </div>
+          </div>
+        </form>
+        <form class="modal__form-order">
+          <h3 class="form-order__title">Final Order</h3>
+          <input
+            type="text"
+            class="form-order__input"
+            required
+            placeholder="Write your first name and last name "
+            id="myInput"
+          />
+          <input
+            type="text"
+            class="form-order__input"
+            required
+            maxlength="2"
+            placeholder="Write your foot size"
+            id="myInput"
+          />
+
+          <img src="img/Nike.svg" alt="Nike" class="form-order__icon" />
+          <span class="form-order__price">299$</span>
+          <button
+            class="form-order__close"
+            data-close-form-modal
+            type="submit"
+            id="myButton"
+            disabled
+          >
+            Buy my Nike
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="js/modal.js"></script>
+  </body>
 </html>
